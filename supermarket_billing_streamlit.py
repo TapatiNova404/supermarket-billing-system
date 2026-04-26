@@ -13,7 +13,7 @@ st.set_page_config(page_title="Supermarket Billing System", page_icon="🛒", la
 st.sidebar.header("Database Configuration")
 db_host = st.sidebar.text_input("Host", value="localhost")
 db_user = st.sidebar.text_input("User", value="root")
-db_password = st.sidebar.text_input("Password", value="TapatiPaul@333", type="password")
+db_password = st.sidebar.text_input("Password", value="password_here", type="password")
 db_name = st.sidebar.text_input("Database", value="super_market_billing")
 
 def create_db_connection(host, user, password, database=None):
