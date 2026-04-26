@@ -75,15 +75,6 @@ supermarket-billing-system/
 
 ---
 
-## 📂 Project Structure
-
-```bash
-supermarket-billing-system/
-│── app.py                # Main Streamlit application
-│── README.md             # Project documentation
-│── requirements.txt      # Required dependencies
-```
-
 ---
 
 ## ⚙️ Installation & Setup
