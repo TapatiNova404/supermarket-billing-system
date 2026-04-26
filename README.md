@@ -191,20 +191,6 @@ pyzbar
 
 ---
 
-## 🔐 Important Note
-
-Do **not** upload your real MySQL password publicly on GitHub.
-
-Before uploading, replace this line in your code:
-
-```python
-db_password = st.sidebar.text_input("Password", value="your_password_here", type="password")
-```
-
-Never expose personal credentials in public repositories.
-
----
-
 ## 📌 Future Improvements
 
 * Admin login authentication
